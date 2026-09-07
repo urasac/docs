@@ -23,9 +23,25 @@
     ],
     "groups": [
       {
-        "group": "Getting Started",
+        "group": "Documentation",
+        "icon": "folder-bookmark",
         "pages": [
-          "untitled-page"
+          "introduction"
+        ]
+      },
+      {
+        "group": "Courtroom",
+        "icon": "gavel",
+        "pages": [
+          "courtroom",
+          "roleplayguide",
+          {
+            "group": "Hosting Guide",
+            "pages": [
+              "publichosting",
+              "privatehosting"
+            ]
+          }
         ]
       }
     ]
