@@ -35,28 +35,36 @@
         "pages": [
           "courtroom",
           "roleplayguide",
-          {
-            "group": "Hosting Guide",
-            "pages": [
-              "publichosting",
-              "privatehosting"
-            ]
-          }
+          "untitled-page"
         ]
       }
-    ]
+    ],
+    "global": {
+      "tabs": [
+        {
+          "tab": "Discord Server",
+          "icon": "discord",
+          "href": "https://discord.com/invite/JDFSdv9rE7"
+        },
+        {
+          "tab": "Roblox Group",
+          "icon": "user-friends",
+          "href": "https://www.roblox.com/communities/15876421/Paraside-Development#!/about"
+        },
+        {
+          "tab": "Courtroom on Roblox",
+          "icon": "gavel",
+          "href": "https://www.roblox.com/games/125680009581115/Courtroom"
+        }
+      ]
+    }
   },
   "logo": {
     "light": "/images/logobig.png",
     "dark": "/images/logobig.png"
   },
   "navbar": {
-    "links": [
-      {
-        "href": "https://www.roblox.com/games/125680009581115/Courtroom",
-        "label": "Courtroom on Roblox"
-      }
-    ],
+    "links": [],
     "primary": {
       "type": "button",
       "label": "Dashboard",
@@ -65,5 +73,8 @@
   },
   "appearance": {
     "default": "dark"
+  },
+  "search": {
+    "prompt": "Commands"
   }
 }
